@@ -78,7 +78,7 @@ ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:
 :root :where(.wp-block-list li){margin-top: 0.5rem;}
 </style>
 <style id="core-block-supports-inline-css">
-.wp-container-core-navigation-is-layout-fc306653{justify-content:flex-end;}.wp-container-core-group-is-layout-f4c28e8b{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-group-is-layout-8165f36a{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-buttons-is-layout-9064300c{gap:0 0;justify-content:center;}
+.wp-container-core-navigation-is-layout-fc306653{justify-content:flex-end;}.wp-container-core-group-is-layout-f4c28e8b{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-group-is-layout-8165f36a{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-buttons-is-layout-9064300c{gap:0 0;justify-content:center;}.wp-elements-a50237c45c914fc8259d558a85c26ef1 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-color-4);}.wp-elements-adc545ac2e20de857028c5eb995ea73d a:where(:not(.wp-element-button)){color:var(--wp--preset--color--contrast);}.wp-elements-f57c7ba1df3557667c64d5f436926fac a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-color-4);}
 </style>
 <style id="wp-block-template-skip-link-inline-css">
 
@@ -188,10 +188,10 @@ font-family: "8bitOperator JVE";
 <main class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--60)">
 <div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 
-<h1 class="wp-block-post-title">Preuzimanje</h1>
+<h1 class="wp-block-post-title"><span style="color: #ff7f21; font-size: 70px;">Preuzimanje</span></h1>
 
 <div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
-<p>Prijevod je dostupan! <br>Za preuzimanje .zip datoteke pritisnite gumb:</p>
+<p>Prijevod je dostupan! <br>Za preuzimanje .zip mape pritisnite gumb:</p>
 
 
 
@@ -201,13 +201,115 @@ font-family: "8bitOperator JVE";
 
 
 
-<p class="has-x-large-font-size"><span style="text-decoration: underline;">UPUTE ZA INSTALACIJU</span></p>
+<p class="has-x-large-font-size"><span style="text-decoration: underline;">&Scaron;TO SE NALAZI U .zip MAPI?</span></p>
 
 
 
 <ol class="wp-block-list">
-<li>Raspakirajte preuzetu .zip datoteku</li>
+<li class="has-link-color wp-elements-a50237c45c914fc8259d558a85c26ef1"><code style="font-size:20px">DeltaPatcher.exe</code> &ndash; program potreban za instalaciju moda (autor <a href="https://github.com/marco-calautti/DeltaPatcher">Marco Calautti</a>)</li>
+
+
+
+<li><code style="font-size:20px">UndertaleHR.xdelta</code> &ndash; datoteka moda, u njoj se nalazi prijevod</li>
+
+
+
+<li style="padding-bottom:var(--wp--preset--spacing--30)"><code style="font-size:20px">UPUTE.rtf</code> &ndash; upute za instalaciju, sli&#269;ne onima koje slijede&hellip;</li>
 </ol>
+
+
+<details>
+<summary><span class="has-x-large-font-size" style="padding-top:var(--wp--preset--spacing--30); text-decoration: underline;">UPUTE ZA INSTALACIJU</span></summary>
+
+
+<ol class="wp-block-list">
+<li style="padding-bottom:var(--wp--preset--spacing--30)">Raspakirajte .zip mapu na lokaciju po &#382;elji.</li>
+
+
+
+<li style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">U raspakiranoj mapi otvorite  <code style="font-size:20px">Delta Patcher</code>.</li>
+
+
+
+<li style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">Unutar  <code style="font-size:20px">Delta Patchera</code>  treba ispuniti dva polja
+<ul class="wp-block-list">
+<li style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><span style="text-decoration: underline;"><code style="font-size:20px">Original file</code></span>: ovdje treba postaviti datoteku <code style="font-size:20px">data.win</code> koja se nalazi u mapi gdje se nalaze datoteke originalne igre <em>Undertale</em> (najvjerojatnije <code style="font-size:20px">C:\Program Files (x86)\Steam\steamapps\common\Undertale</code>)</li>
+
+
+
+<li class="has-large-font-size" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><span style="text-decoration: underline;"><code>XDelta patch</code></span>: ovdje ubacujete datoteku <code style="font-size:20px">UndertaleHR.xdelta</code> iz raspakirane mape</li>
+
+
+
+<li class="has-contrast-color has-text-color has-link-color has-large-font-size wp-elements-adc545ac2e20de857028c5eb995ea73d" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><mark style="background-color:rgba(0, 0, 0, 0); font-size:25px" class="has-inline-color has-custom-color-3-color">VA&#381;NO!</mark> Preporu&#269;a se da prije instalacije moda originalnu datoteku <code>data.win</code> kopirate i pohranite na neko sigurno mjesto. Ta &#263;e vam datoteka trebati ako se budete htjeli vratiti na originalnu verziju igre!</li>
+</ul>
+</li>
+
+
+
+<li style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">Pritisnite tipku <code style="font-size:20px">Apply patch</code>.</li>
+
+
+
+<li style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">Prikazuje se poruka <code style="font-size:20px">Patch successfully applied!</code> &ndash; mod je instaliran, mo&#382;ete pokrenuti <em>Undertale</em></li>
+</ol>
+
+</details>
+
+<details>
+<summary><span class="has-x-large-font-size" style="padding-top:var(--wp--preset--spacing--30); text-decoration: underline;">UPUTE ZA DEINSTALACIJU</span></summary>
+
+
+<ol class="wp-block-list">
+<li style="padding-bottom:var(--wp--preset--spacing--30)">Prona&#273;ite originalnu datoteku <code style="font-size:20px">data.win</code>.</li>
+
+
+
+<li style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">Otvorite mapu gdje se nalaze datoteke za <em>Undertale</em> (najvjerojatnije <code style="font-size:20px">C:\Program files (x86)\Steam\steamapps\common\Undertale</code>).</li>
+
+
+
+<li style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">Izbri&scaron;ite datoteku <code style="font-size:20px">data.win</code> koja se nalazi u toj mapi te u mapu stavite originalnu datoteku <code style="font-size:20px">data.win</code>.</li>
+</ol>
+
+
+
+<p>Ako budete htjeli ponovno instalirati mod, ponovite postupak za instalaciju od koraka 2.</p>
+
+</details>
+
+<details>
+<summary><span class="has-x-large-font-size" style="padding-top:var(--wp--preset--spacing--30); text-decoration: underline;">MOGU&#262;E GRE&Scaron;KE PRI INSTALACIJI</span></summary>
+
+
+<ul class="wp-block-list">
+<li><code style="font-size:20px">Delta Patcher</code> izbacuje poruku <em><code>The patch could not be applied: The file you are trying to patch is not the right one.</code></em>
+<ul class="wp-block-list">
+<li style="padding-bottom:var(--wp--preset--spacing--30)">Datoteka <code style="font-size:20px">data.win</code> mora biti originalna! Ako ste je ve&#263; prije mijenjali (nekim drugim modovima), poku&scaron;ajte je vratiti u izvorno stanje ili deinstalirajte pa ponovno instalirajte igru.</li>
+</ul>
+</li>
+
+
+
+<li>Mod je instaliran, ali igra mi je i dalje na engleskom jeziku!
+<ul class="wp-block-list">
+<li>Hrvatski jezik trebao bi automatski biti postavljen kad uklju&#269;ite igru. Ako nije tako, bez brige, jezik mo&#382;ete lako promijeniti i unutar igre! Kad uklju&#269;ite igru i vidite engleski tekst (&ldquo;<code style="font-size:20px">Long ago...</code>&ldquo;), pritisnite tipku enter. Pri dnu ekrana tada &#263;e se pojaviti <code style="font-size:20px">Settings</code> (postavke). Tipkom enter u&#273;ite u postavke te u izborniku <code style="font-size:20px">Language</code> (jezik) odaberite hrvatski.</li>
+
+
+
+<li style="padding-bottom:var(--wp--preset--spacing--30)">Ako se unutar igre u postavkama ne nudi hrvatski jezik, mod nije instaliran &ndash; poku&scaron;ajte ga instalirati ponovno.</li>
+</ul>
+</li>
+
+
+
+<li class="has-link-color wp-elements-f57c7ba1df3557667c64d5f436926fac">Ako vam se dogodila neka gre&scaron;ka koja nije opisana na ovoj stranici, slobodno ispunite <a href="https://undertalehr.github.io/undertalehr/kontakt/" data-type="page" data-id="177">obrazac za kontakt</a>.</li>
+</ul>
+
+</details>
+
+
+<p></p>
 </div></div>
 </main>
 
